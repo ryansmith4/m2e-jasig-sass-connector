@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<lifecycleMappingMetadata>
+ 
+    <pluginExecutions>
+        <pluginExecution>
+            <pluginExecutionFilter>
+                <groupId>org.jasig.maven</groupId>
+                <artifactId>sass-maven-plugin</artifactId>
+                <versionRange>[1.1.1,)</versionRange>
+                <goals>
+                    <goal>update-stylesheets</goal>
+                    <goal>watch</goal>
+                </goals>
+            </pluginExecutionFilter>
+            <action>
+                <configurator>
+                    <id>org.eclipselabs.m2e.jasig.sass.connector.JasigSassProjectConfigurator</id>
+                </configurator>
+            </action>
+        </pluginExecution>
+    </pluginExecutions>
+ 
+</lifecycleMappingMetadata>
