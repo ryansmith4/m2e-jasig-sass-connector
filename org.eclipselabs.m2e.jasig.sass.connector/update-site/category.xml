@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipselabs.m2e.jasig.sass.connector.feature_1.0.0.qualifier.jar" id="org.eclipselabs.m2e.jasig.sass.connector.feature" version="1.0.0.qualifier">
+      <category name="m2e-jasig-sass-connector_category"/>
+   </feature>
+   <category-def name="m2e-jasig-sass-connector_category" label="m2e-jasig-sass-connector">
+      <description>
+         An m2e 1.x extension plugin providing build lifecycle configuration for the Jasig/sass-maven-plugin
+      </description>
+   </category-def>
+</site>
