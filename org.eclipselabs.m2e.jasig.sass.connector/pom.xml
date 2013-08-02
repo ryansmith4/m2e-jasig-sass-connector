@@ -9,7 +9,7 @@
 	<description>Parent project for the org.eclipselabs.m2e.jasig.sass.connector project set</description>
 
 	<properties>
-		<tycho-version>0.13.0</tycho-version>
+		<tycho-version>0.17.0</tycho-version>
 	</properties>
 
 	<profiles>
